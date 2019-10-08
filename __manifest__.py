@@ -11,7 +11,6 @@
 
     "category": "Property",
     "depends": [
-        'account',
         'board',
     ],
     "license": "LGPL-3",
