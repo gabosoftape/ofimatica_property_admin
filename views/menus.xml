@@ -1,19 +1,18 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
-        <menuitem name="Mis Obligaciones" id="ofimatica_liabilities_parent_menu" sequence="35" web_icon="ofimatica_liabilities,static/description/icon4.png"/>
-        <menuitem name="Recibos Administracion" id="ofimatica_liabilities_recibos_menu" action="liabilities_action_invoice_tree" parent="ofimatica_liabilities_parent_menu" sequence="10"/>
-        <menuitem name="Realizar pagos" id="ofimatica_liabilities_pagos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="20" />
-        <menuitem name="Historial de Estado de cuenta" id="ofimatica_liabilities_estado_cuenta_menu" action="liabilities_action_invoice_refund_out_tree" parent="ofimatica_liabilities_parent_menu" sequence="50"/>
-        <menuitem name="Pago de servicios Publicos" id="ofimatica_liabilities_servicios_publicos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
-        <menuitem name="Inmobiliarias" id="ofimatica_liabilities_inmobiliarias_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
-        <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="110"/>
-        <menuitem name="Envios" id="ofimatica_liabilities_envios_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="120"/>
-        <menuitem name="Paz y salvos" id="ofimatica_liabilities_paz_salvo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="130"/>
-        <menuitem name="Comparativo Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
-        <menuitem name="Votacion" id="ofimatica_liabilities_votacion_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="170"/>
-        <menuitem name="Encuestas" id="ofimatica_liabilities_encuestas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="190"/>
-        <menuitem name="Asambleas" id="ofimatica_liabilities_asambleas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="210"/>
-        <menuitem name="Foros" id="ofimatica_liabilities_foros" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="220"/>
+        <menuitem name="Administracion Beehive" id="ofimatica_admin_beehive_parent_menu" sequence="35" web_icon="ofimatica_liabilities,static/description/icon4.png"/>
+        <menuitem name="Contabilidad e Informes de Gestion" id="ofimatica_admin_informes_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="10"/>
+        <menuitem name="Facturacion Electronica" id="ofimatica_admin_fe_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_informes_menu" sequence="10" />
+        <menuitem name="Contabilidad" id="ofimatica_admin_contabilidad_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_informes_menu" sequence="20" />
+        <menuitem name="Ingresos" id="ofimatica_admin_contabilidad_ingresos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_contabilidad_menu" sequence="10" />
+        <menuitem name="Egresos" id="ofimatica_admin_contabilidad_egresos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_contabilidad_menu" sequence="20" />
+        <menuitem name="Facturas" id="ofimatica_admin_contabilidad_facturas_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_contabilidad_menu" sequence="30" />
+        <menuitem name="Manejo de proveedores" id="ofimatica_admin_proveedores_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="20" />
+        <menuitem name="Envio de informacion" id="ofimatica_admin_envio_info_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="30"/>
+        <menuitem name="Pop Up Cobranzas" id="ofimatica_admin_popup_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="40"/>
+        <menuitem name="Informes y recortes" id="ofimatica_admin_info_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="50"/>
+        <menuitem name="Aprovacion de reservas" id="ofimatica_admin_aprovaciones_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="60"/>
+        <menuitem name="Cargue estado de cuenta" id="ofimatica_admin_estado_cuenta_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="70"/>
     </data>
 </odoo>
