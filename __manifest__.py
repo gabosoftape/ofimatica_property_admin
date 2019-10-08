@@ -15,7 +15,7 @@
     ],
     "license": "LGPL-3",
     "data": [
-        'security/security.xml'
+        'security/security.xml',
         'views/menus.xml',
     ],
     'application': False,
