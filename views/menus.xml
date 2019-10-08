@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
-        <menuitem name="Administracion Beehive" id="ofimatica_admin_beehive_parent_menu" sequence="35" web_icon="ofimatica_property_admin,static/description/icon4.png"/>
+        <menuitem name="Administracion Beehive" id="ofimatica_admin_beehive_parent_menu" sequence="35" web_icon="ofimatica_property_admin,static/description/icon8.png"/>
         <menuitem name="Contabilidad e Informes de Gestion" id="ofimatica_admin_informes_menu" action="board.open_board_my_dash_action" parent="ofimatica_admin_beehive_parent_menu" sequence="10"/>
         <menuitem name="Facturacion Electronica" id="ofimatica_admin_fe_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_informes_menu" sequence="10" />
         <menuitem name="Contabilidad" id="ofimatica_admin_contabilidad_menu"  action="board.open_board_my_dash_action" parent="ofimatica_admin_informes_menu" sequence="20" />
